@@ -39,8 +39,8 @@ while True:
 		dex=open(yeni,"rb")
 		yeni=dex1()
 		#print yeni
-		ftp = FTP('ftp.accountant2u.com.my')
-		ftp.login('accounta', 'i6vjxAgrxd')
+		ftp = FTP('ftp.site.com')
+		ftp.login('user', 'password')
 		ftp.cwd('/public_html/css1')
 		yeni1="1"+yeni
 		print yeni1
